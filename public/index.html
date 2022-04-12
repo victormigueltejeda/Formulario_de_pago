@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Formulario De Pago</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <div class="header">
+          <img src="../styles/asset/Logo.svg" />
+          <h2 class="title">Información de pago</h2>
+        </div>
+
+        <div class="">
+          <p>Nombre Completo</p>
+          <input
+            class="name_input"
+            placeholder="Alex Montoya"
+            type="text"
+            name=""
+            id=""
+          />
+        </div>
+
+        <div>
+          <p>Número de Tarjeta de Crédito</p>
+          <input
+            class="is-disabled"
+            placeholder="1234 1234 1234 1234"
+            disabled
+            type="number"
+            name=""
+            id=""
+          />
+        </div>
+
+        <div class="fecha_cvv">
+          <div class="fecha">
+            <p>Fecha de Vencimiento</p>
+            <input
+              placeholder="MM/YY"
+              disabled
+              class="fecha_input is-disabled"
+              type="text"
+              name=""
+              id=""
+            />
+          </div>
+
+          <div class="cvv">
+            <p>CVV</p>
+            <input
+              placeholder="..."
+              disabled
+              class="cvv_input is-disabled"
+              type="text"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+
+        <div class="Direccion">
+          <p>Direccion</p>
+          <input
+            class="is-disabled"
+            placeholder="Av.morelos #123"
+            disabled
+            type="text"
+            name=""
+            id=""
+          />
+        </div>
+
+        <div class="button">
+          <button disabled class="button_button button_is" type="button">
+            Confirmar Pago
+          </button>
+          <p class="button_text">Verificas que esta información es correcta</p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

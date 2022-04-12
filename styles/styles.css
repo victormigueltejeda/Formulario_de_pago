@@ -1,0 +1,117 @@
+:root {
+  --black: #030102;
+  --grey: #9ea8bd;
+  --grey2: #e2e6ee;
+  --primary: #ca097a;
+  --white: #ffffff;
+  --text1regular: 400 1rem / normal Roboto;
+  --heading1: 700 1.25rem / normal Roboto;
+  --text2regular: 300 0.75rem / normal Roboto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--black);
+  font: var(--heading1);
+}
+
+div {
+  height: 6.9rem;
+}
+
+input {
+  width: 30rem;
+  height: 3.7rem;
+  border-radius: 1rem;
+  border: none;
+  padding-left: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+}
+
+h2 {
+  color: var(--black);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 36rem;
+  height: 59.7rem;
+  margin: 0 auto;
+  margin-top: 12rem;
+  padding: 3rem;
+  border-radius: 2rem;
+  background-color: var(--white);
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 30rem;
+  gap: 2.4rem;
+}
+
+.fecha_cvv {
+  display: flex;
+}
+
+.fecha,
+.cvv {
+  width: 14.6rem;
+}
+
+.fecha p {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.fecha_input,
+.cvv_input {
+  width: 14rem;
+}
+
+.button_button {
+  background-color: var(--primary);
+  width: 30rem;
+  height: 4rem;
+  border-radius: 1rem;
+  border: none;
+  color: var(--white);
+}
+
+.is-disabled {
+  background-color: var(--grey2);
+  cursor: not-allowed;
+}
+
+.name_input {
+  box-shadow: 0 4px 18px rgb(158 168 189 / 31%);
+}
+
+.button_text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.button_is {
+  opacity: 0.3;
+}
